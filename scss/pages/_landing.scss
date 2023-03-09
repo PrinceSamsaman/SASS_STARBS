@@ -1,0 +1,18 @@
+// BNNER 
+.banner {
+    background-image: url(/img/image/lQkfJOiMaudicSk7PQT5k4IDINiWdchEhrOWK5lw.jpeg);
+    background-size: cover;
+    object-fit: cover;
+    height: 50vh;
+
+    &__wrapper {
+        text-align: center;
+        h2 {
+            font-size: 4rem ;
+            font-weight: 600;
+            text-align: left;
+        }
+        // a {
+        // }
+    }
+}

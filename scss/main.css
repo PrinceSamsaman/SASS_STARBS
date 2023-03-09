@@ -417,16 +417,31 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   align-items: center;
 }
 
+.banner {
+  background-image: url(/img/image/lQkfJOiMaudicSk7PQT5k4IDINiWdchEhrOWK5lw.jpeg);
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50vh;
+}
+.banner__wrapper {
+  text-align: center;
+}
+.banner__wrapper h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: left;
+}
 .btn {
   padding: 1rem 3rem;
   border-radius: 2rem;
   font-weight: 700;
 }
-.btn__primary .btn__outline__light {
+.btn-primary .btn-outline-light {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
 }
-.btn__primary__outline {
+.btn-primary-outline {
   color: rgba(0, 0, 0, 0.67);
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.67);
