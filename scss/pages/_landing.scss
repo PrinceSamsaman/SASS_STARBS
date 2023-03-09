@@ -1,18 +1,24 @@
-// BNNER 
+// BNNER
 .banner {
-    background-image: url(/img/image/lQkfJOiMaudicSk7PQT5k4IDINiWdchEhrOWK5lw.jpeg);
-    background-size: cover;
-    object-fit: cover;
-    height: 50vh;
-
-    &__wrapper {
-        text-align: center;
-        h2 {
-            font-size: 4rem ;
-            font-weight: 600;
-            text-align: left;
-        }
-        // a {
-        // }
+  background-image: url(/img/image/lQkfJOiMaudicSk7PQT5k4IDINiWdchEhrOWK5lw.jpeg);
+  background-size: cover;
+  object-fit: cover;
+  height: 50vh;
+  background-position-x: -83%;
+  &__wrapper {
+    text-align: center;
+    h2 {
+      color: $clr-primary-dark;
+      font-size: 4rem;
+      font-weight: bolder;
+      text-align: left;
+      padding-top: 10rem;
     }
+    a {
+      text-align: left;
+      &:hover {
+        background-color: $clr;
+      }
+    }
+  }
 }

@@ -270,11 +270,11 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 }
 
 .text--gray {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bg--gray {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .text--light {
@@ -286,11 +286,11 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 }
 
 .text--dark {
-  color: #D4E9E2;
+  color: #d4e9e2;
 }
 
 .bg--dark {
-  background-color: #D4E9E2;
+  background-color: #d4e9e2;
 }
 
 .mb--1 {
@@ -423,23 +423,30 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   -o-object-fit: cover;
      object-fit: cover;
   height: 50vh;
+  background-position-x: -83%;
 }
 .banner__wrapper {
   text-align: center;
 }
 .banner__wrapper h2 {
+  color: #1e3932;
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 10rem;
+}
+.banner__wrapper a {
   text-align: left;
 }
+
 .btn {
   padding: 1rem 3rem;
   border-radius: 2rem;
   font-weight: 700;
 }
 .btn-primary .btn-outline-light {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 .btn-primary-outline {
   color: rgba(0, 0, 0, 0.67);
@@ -449,7 +456,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 
 .links {
   margin-top: 1rem;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 2rem 0;
   border-top: 1px solid rgb(196, 196, 196);
 }
