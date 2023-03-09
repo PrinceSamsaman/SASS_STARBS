@@ -423,20 +423,97 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   -o-object-fit: cover;
      object-fit: cover;
   height: 50vh;
-  background-position-x: -83%;
+  background-position-x: -92%;
+}
+@media screen and (min-width: 97rem) {
+  .banner {
+    height: 65vh;
+  }
 }
 .banner__wrapper {
-  text-align: center;
+  text-align: left;
+  padding: 0 1.5rem;
+}
+@media screen and (min-width: 97rem) {
+  .banner__wrapper {
+    padding-top: 12rem;
+    margin: 0 4rem;
+  }
 }
 .banner__wrapper h2 {
   color: #1e3932;
   font-size: 4rem;
   font-weight: bolder;
-  text-align: left;
   padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+@media screen and (min-width: 97rem) {
+  .banner__wrapper h2 {
+    font-size: 7rem;
+  }
 }
 .banner__wrapper a {
-  text-align: left;
+  padding: 1rem 1rem;
+}
+.banner__wrapper a:hover {
+  background-color: hsla(0, 0%, 100%, 0.12);
+  transition: 0.5s ease;
+}
+
+.about {
+  color: #ffffff;
+}
+.about__wrapper .item {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+@media screen and (min-width: 97rem) {
+  .about__wrapper .item {
+    flex-direction: unset;
+    margin: 0 30rem;
+    padding: 3rem 0;
+  }
+}
+.about__wrapper .item img {
+  width: 48rem;
+  height: 24rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  display: block;
+}
+@media screen and (min-width: 97rem) {
+  .about__wrapper .item img {
+    width: 90rem;
+    height: 40vh;
+    width: 100%;
+  }
+}
+.about__wrapper .item .text {
+  text-align: center;
+  background: #006241;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+@media screen and (min-width: 97rem) {
+  .about__wrapper .item .text {
+    width: 100%;
+    padding: 4rem;
+  }
+}
+.about__wrapper .item .text h2 {
+  font-size: 2.4rem;
+}
+.about__wrapper .item .text p {
+  font-size: 1.6rem;
+  margin: 3rem 0;
+}
+.about__wrapper .item .text a {
+  color: #ffffff;
 }
 
 .btn {
@@ -452,6 +529,11 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   color: rgba(0, 0, 0, 0.67);
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.67);
+}
+.btn-primary-dark-outline {
+  color: #1e3932;
+  background-color: transparent;
+  border: 1px solid #1e3932;
 }
 
 .links {

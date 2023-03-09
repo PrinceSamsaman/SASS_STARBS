@@ -12,4 +12,9 @@
         background-color: transparent;
         border: 1px solid $clr-primary;
     }
+    &-primary-dark-outline{
+        color: $clr-primary-dark;
+        background-color: transparent;
+        border: 1px solid $clr-primary-dark;
+    }
 }
